@@ -8,9 +8,9 @@ repository = "https://github.com/fracdiff/fracdiff"
 
 [tool.poetry.dependencies]
 python = ">=3.10"
-numpy = "^1.24.1"
+numpy = ">=1.24.1"
 scipy = "^1.10.0"
-statsmodels = {git = "https://github.com/statsmodels/statsmodels.git"} # https://github.com/statsmodels/statsmodels/issues/8543
+statsmodels = ">=0.14.0"
 scikit-learn = {version = "^1.2.1", optional = true}
 torch = {version = "^1.13.1", optional = true}
 
